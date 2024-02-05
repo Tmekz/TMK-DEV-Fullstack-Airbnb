@@ -99,6 +99,7 @@ const RegisterModal = () => {
         <p>
           Already have an account?
           <span
+            onClick={registerModal.onClose}
             className="
               text-neutral-800
               cursor-pointer 
